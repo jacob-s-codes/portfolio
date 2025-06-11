@@ -13,7 +13,7 @@ export default function Home() {
             <h2>|</h2>
             <h2>Founder</h2>
           </div>
-          <h3 className="text-xl">Hi there! My name is Jacob and I'm currently a high school student at San Francisco University High School. I'm passionate about technology and software. You can email me at: <a href="mailto:jacobbshaul@gmail.com" className="hover:text-gray-400">jacobbshaul@gmail.com</a></h3>
+          <h3 className="text-xl">Hi there! My name is Jacob and I&apos;m currently a high school student at San Francisco University High School. I&apos;m passionate about technology and software. You can email me at: <a href="mailto:jacobbshaul@gmail.com" className="hover:text-gray-400">jacobbshaul@gmail.com</a></h3>
           <div className="flex items-center gap-8">
             <a href="https://github.com/jacob-s-codes" target="_blank" className="hover:text-gray-400">
               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-github w-10 h-auto" viewBox="0 0 16 16">
