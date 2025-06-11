@@ -27,14 +27,26 @@ export default function Home() {
               </svg></a>
           </div>
         </div>
-        <img src="/jacobpic.png" alt="Jacob's Avatar" className="w-96 h-96 rounded-full border-4 border-white" />
+        <img src="/jacobbgremove.png" alt="Jacob's Avatar" className="w-96 h-96 rounded-full border-4 border-white" />
       </div>
 
 
       <div className="py-48">
         <h2 className="text-5xl font-semibold">My tech stack:</h2>
-        <hr className="border-2 border-white"/>
-        
+        <hr className="border-2 border-white" />
+
+        <h3 className="text-4xl py-4">Frontend:</h3>
+        <div className="flex items-center justify-evenly">
+          <img src="/nextjslogo.jpeg" alt="nextjs logo" className="w-64 h-auto" />
+          <img src="/tailwindlogo.png" alt="" className="w-64 h-auto" />
+        </div>
+
+        {/* <h3 className="text-4xl py-4">Backend:</h3>
+        <div className="flex items-center justify-evenly">
+          <img src="/nextjslogo.jpeg" alt="nextjs logo" className="w-64 h-auto" />
+          <img src="/tailwindlogo.png" alt="" className="w-64 h-auto" />
+        </div> */}
+
       </div>
 
     </div>
