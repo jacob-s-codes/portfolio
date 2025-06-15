@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
 
-/* @theme inline {
-  
-} */
+@theme inline {
+  --color-darkbg: #212529;
+  --color-lessdarkbg: #343A40;
+}
 
 html {
   font-family: "Courier Prime", monospace;
-  background-color: black;
+  background-color: #212529;
   color: white;
 }
