@@ -81,7 +81,7 @@ export default function Home() {
               <h3 className="text-5xl font-semibold uppercase">UHS Hacks</h3>
               <hr className="mr-8" />
             </div>
-            <p className="text-xl px-4">Organized my high school's inaugural hackathon, bringing high school students from around the bay area to come build.</p>
+            <p className="text-xl px-4">Organized my high school&apos;s inaugural hackathon, bringing high school students from around the bay area to come build.</p>
             <a href="/uhshacks"><button className="w-fit mx-4 hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Read more</button></a>
             <div className="flex flex-row items-stretch justify-between gap-x-8 px-4 border-t-16 border-darkbg h-full">
               <div className="flex flex-col items-start border-r-16 border-darkbg h-full pt-4 ">
