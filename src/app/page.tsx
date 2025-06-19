@@ -1,5 +1,7 @@
 // import Image from "next/image";
 
+import Projects from "./components/Projects";
+
 export default function Home() {
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-8">
@@ -39,7 +41,7 @@ export default function Home() {
         <h2 className="text-6xl font-semibold uppercase">projects:</h2>
         <hr className="border-2 border-white" />
 
-        <div className=" my-12 rounded-4xl flex items-stretch justify-between overflow-hidden">
+        {/* <div className=" my-12 rounded-4xl flex items-stretch justify-between overflow-hidden">
           <img
             src="/mtccropped.png"
             alt="mode to code logo"
@@ -93,14 +95,22 @@ export default function Home() {
                 <p>Organized with 8 code support and outreach volunteers.</p>
               </div>
             </div>
-          </div>
+          </div> */}
+
+
+          
+        {/* </div> */}
+        <Projects/>
+        <div className="">
+          <a href="/projects"><button className="w-fit mx-4 hover:cursor-pointer border-white border px-12 py-4 hover:bg-lessdarkbg duration-200 ease-in hover:rounded-r-xl text-2xl">Read more</button></a>
         </div>
+
       </div>
 
 
 
       <div className="py-48">
-        <h2 className="text-5xl font-semibold uppercase">tech stack:</h2>
+        <h2 className="text-5xl font-semibold uppercase">tech stack/languages:</h2>
         <hr className="border-2 border-white mb-8" />
         <div className="grid grid-cols-7 items-center justify-evenly">
           <img src="/nextjslogo.jpeg" alt="nextjs logo" className="w-32 h-auto" />
