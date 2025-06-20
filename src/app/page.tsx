@@ -40,66 +40,6 @@ export default function Home() {
       <div className="py-48">
         <h2 className="text-6xl font-semibold uppercase">projects:</h2>
         <hr className="border-2 border-white" />
-
-        {/* <div className=" my-12 rounded-4xl flex items-stretch justify-between overflow-hidden">
-          <img
-            src="/mtccropped.png"
-            alt="mode to code logo"
-            className="rounded-l-4xl border-r-16 border-darkbg object-cover w-[40%]"
-          />
-
-          <div className="w-full bg-lessdarkbg flex flex-col gap-y-6 justify-center">
-            <h4 className="border mx-4 border-white w-fit px-6 py-1 rounded-3xl text-sm uppercase mt-6">Founder, frontend development</h4>
-            <div className="px-4">
-              <h3 className="text-5xl font-semibold uppercase">Mode to Code</h3>
-              <hr className="mr-8" />
-            </div>
-            <p className="text-xl px-4">Founder of Mode to Code, a program that teaches students of all ages about coding and technology.</p>
-            <a href="/modetocode"><button className="w-fit mx-4 hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Read more</button></a>
-            <div className="flex flex-row items-stretch justify-between gap-x-8 px-4 border-t-16 border-darkbg h-full">
-              <div className="flex flex-col items-start border-darkbg border-r-16 pt-6 h-full">
-                <h5 className="font-extrabold text-4xl uppercase">850+</h5>
-                <p>Taught over 850 students around the world about coding.</p>
-              </div>
-              <div className="flex flex-col items-start pt-6 h-full"> 
-                <h5 className="font-black text-4xl uppercase">15</h5>
-                <p>Worked with 15 student volunteers.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div className=" my-12 rounded-4xl flex flex-row-reverse items-stretch justify-between overflow-hidden">
-          <img
-            src="/uhshacks.png"
-            alt="mode to code logo"
-            className="rounded-r-4xl border-l-16 border-darkbg object-cover w-full"
-          />
-
-          <div className="w-full bg-lessdarkbg flex flex-col gap-y-6 justify-center">
-            <h4 className="border mx-4 border-white w-fit px-6 py-1 rounded-3xl text-sm uppercase mt-12">Organizer, frontend development, outreach</h4>
-            <div className="px-4">
-              <h3 className="text-5xl font-semibold uppercase">UHS Hacks</h3>
-              <hr className="mr-8" />
-            </div>
-            <p className="text-xl px-4">Organized my high school&apos;s inaugural hackathon, bringing high school students from around the bay area to come build.</p>
-            <a href="/uhshacks"><button className="w-fit mx-4 hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Read more</button></a>
-            <div className="flex flex-row items-stretch justify-between gap-x-8 px-4 border-t-16 border-darkbg h-full">
-              <div className="flex flex-col items-start border-r-16 border-darkbg h-full pt-4 ">
-                <h5 className="font-extrabold text-4xl uppercase">50</h5>
-                <p>50 students participated for free at UHS Hacks.</p>
-              </div>
-              <div className="flex flex-col items-start pt-4 h-full">
-                <h5 className="font-black text-4xl uppercase">8</h5>
-                <p>Organized with 8 code support and outreach volunteers.</p>
-              </div>
-            </div>
-          </div> */}
-
-
-          
-        {/* </div> */}
         <Projects/>
         <div className="">
           <a href="/projects"><button className="w-fit mx-4 hover:cursor-pointer border-white border px-12 py-4 hover:bg-lessdarkbg duration-200 ease-in hover:rounded-r-xl text-2xl">Read more</button></a>
@@ -109,7 +49,7 @@ export default function Home() {
 
 
 
-      <div className="py-48">
+      <div className="py-24">
         <h2 className="text-5xl font-semibold uppercase">tech stack/languages:</h2>
         <hr className="border-2 border-white mb-8" />
         <div className="grid grid-cols-7 items-center justify-evenly">
