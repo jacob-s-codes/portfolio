@@ -11,3 +11,14 @@ html {
   background-color: #212529;
   color: white;
 }
+
+html,
+body {
+  overflow-x: clip;
+  
+  /* Prevent horizontal scrolling */
+  /* overflow-y: auto; */
+  /* Ensure vertical scrolling when necessary */
+  height: auto;
+  width: 100%;
+}
