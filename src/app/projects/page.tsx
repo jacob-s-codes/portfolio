@@ -21,7 +21,10 @@ const page = () => {
                         <hr className="mr-8" />
                     </div>
                     <p className="text-xl px-4">Calls Pokemon API and uses React usetates to create a fun little game!</p>
-                    <a href="/modetocode"><button className="w-fit mx-4 hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Read more</button></a>
+                    <div>
+                        <a href="/pokemonorsoftware"><button className="w-fit mx-4 hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Read more</button></a>
+                        <a href="https://pokemonorosoft.vercel.app/" target='_blank'><button className="w-fit mx-4 hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Website</button></a>
+                    </div>
                     <div className="flex flex-row items-stretch justify-between gap-x-8 px-4 border-t-16 border-darkbg h-full">
                         <div className="flex flex-col items-start border-darkbg border-r-16 pt-6 h-full">
                             <h5 className="font-extrabold text-4xl uppercase">Tech</h5>
