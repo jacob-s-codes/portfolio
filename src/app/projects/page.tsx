@@ -7,11 +7,11 @@ const page = () => {
             <h1 className="text-6xl font-semibold uppercase pt-6">projects:</h1>
             <hr className="border-2 border-white" />
             <Projects />
-            <div className=" my-12 rounded-4xl flex items-stretch justify-between overflow-hidden">
+            <div className=" my-12 rounded-4xl flex lg:flex-row flex-col items-stretch justify-between overflow-hidden">
                 <img
                     src="/PSlogo.png"
                     alt="mode to code logo"
-                    className="rounded-l-4xl border-r-16 border-darkbg object-cover w-[40%]"
+                    className="lg:rounded-l-4xl lg:border-r-16 border-darkbg object-cover lg:w-[40%] w-full"
                 />
 
                 <div className="w-full bg-lessdarkbg flex flex-col gap-y-6 justify-center">
@@ -26,7 +26,7 @@ const page = () => {
                         <a href="https://pokemonorosoft.vercel.app/" target='_blank'><button className="w-fit mx-4 hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Website</button></a>
                     </div>
                     <div className="flex flex-row items-stretch justify-between gap-x-8 px-4 border-t-16 border-darkbg h-full">
-                        <div className="flex flex-col items-start border-darkbg border-r-16 pt-6 h-full">
+                        <div className="flex flex-col items-start border-darkbg border-r-16 pt-6 lg:pb-0 pb-4 h-full">
                             <h5 className="font-extrabold text-4xl uppercase">Tech</h5>
                             <p>Built using NextJS calling the Pokemon API</p>
                         </div>
