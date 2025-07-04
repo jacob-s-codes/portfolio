@@ -4,7 +4,7 @@ import Projects from "./components/Projects";
 
 export default function Home() {
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-8">
+    <div className="w-full  mx-auto px-4 py-8">
       <div className="flex lg:flex-row flex-col-reverse lg:items-center items-start justify-between">
         <div className="flex flex-col items-start gap-6 max-w-2xl">
           <h1 className="lg:text-8xl text-6xl lg:pt-0 pt-4 font-semibold uppercase">Jacob Shaul</h1>
