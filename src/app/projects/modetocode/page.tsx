@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const page = () => {
@@ -37,6 +38,24 @@ const page = () => {
                     <a href="https://www.inglesidelight.com/mode-to-code-jacob-shaul/" target='_blank'>
                         <img src="/mtc/inglesidepiece.png" alt="ingleside piece" className='rounded-lg hover:shadow-xl hover:shadow-white duration-500' />
                     </a>
+                </div>
+            </div>
+
+            <div className='mt-12 border border-white px-8 py-4 rounded-xl backdrop-blur-2xl'>
+                <div>
+                    <ul className='flex items-center justify-between text-white text-lg font-semibold'>
+
+                        {/* <li className='hover:bg-white hover:text-black px-3 py-1 rounded-lg duration-200'>
+                        <Link href="/about">About</Link>
+                    </li> */}
+                        <li className='hover:bg-white hover:text-black px-3 py-1 rounded-lg duration-200'>
+                            <Link href="/projects">Back</Link>
+                        </li>
+                        <li className='hover:bg-white hover:text-black px-3 py-1 rounded-lg duration-200'>
+                            <Link href="/projects/uhshacks">Read more</Link>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
 
