@@ -22,7 +22,7 @@ const page = () => {
                     </div>
                     <p className="text-xl px-4">Calls Pokemon API and uses React usetates to create a fun little game!</p>
                     <div className='flex flex-row items-start gap-x-2'>
-                        <a href="/pokemonorsoftware"><button className="w-fit ml-4 hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Read more</button></a>
+                        <a href="/projects/pokemonorsoftware"><button className="w-fit ml-4 hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Read more</button></a>
                         <a href="https://pokemonorosoft.vercel.app/" target='_blank'><button className="w-fit hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Website</button></a>
                         <a href="https://github.com/jacob-s-codes/pokemonorosoft" target='_blank'><button className="w-fit hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Github</button></a>
                     </div>

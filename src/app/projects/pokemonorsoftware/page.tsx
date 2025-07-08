@@ -4,14 +4,14 @@ import React from 'react'
 const page = () => {
     return (
         <div className='mx-auto w-full max-w-6xl'>
-            <h1 className='text-7xl mt-6 w-fit '>UHS Hacks</h1>
+            <h1 className='text-7xl mt-6 w-fit '>Pokemon or Software?</h1>
             <hr className='border-2 border-white' />
             <div className='w-full flex items-center justify-center mt-8'>
-                <img src="/uhshacks/uhshackspic.png" alt="UHS Hacks Pic" className='rounded-lg' />
+                <img src="/psscreen.png" alt="UHS Hacks Pic" className='rounded-lg' />
             </div>
 
             <div className='py-12 text-2xl'>
-                <p>This is a hackathon that I'm hosting at my school, UHS. I helped to raise over $16,000 in funds and prizes. This hackathon is free for any high schooler in the Bay Area that's interested!</p>
+                <p>This is a fun little project that I built, inspired by </p>
             </div>
 
             <div>
