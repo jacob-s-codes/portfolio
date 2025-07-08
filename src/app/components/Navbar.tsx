@@ -3,9 +3,9 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div className='top-4 sticky z-50 border border-white px-8 py-4 rounded-xl backdrop-blur-xl'>
+        <div className='top-4 sticky z-50 border border-white lg:px-8 px-2 py-4 rounded-xl backdrop-blur-xl'>
             <div>
-                <ul className='flex items-center justify-between text-white text-lg font-semibold'>
+                <ul className='flex items-center justify-between text-white lg:text-lg text-base font-semibold'>
                     <Link href="/">
                         <li className='hover:bg-white hover:text-black px-3 py-1 rounded-lg duration-200'>
                             J.S.

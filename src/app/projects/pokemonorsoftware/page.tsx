@@ -11,15 +11,15 @@ const page = () => {
             </div>
 
             <div className='py-12 text-2xl'>
-                <p>This is a fun little project that I built, inspired by </p>
+                <p>This is a fun little project that I built, inspired by <a href="https://www.youtube.com/shorts/b-CaKFaefAM" className=" hover:text-blue-500 underline" target="_blank">this video</a>. I built the project using NextJS + the Pokemon API. I created a list of ~30 tech companies/techonlogies and then randomly choose between fetching from the API or from the tech list.</p>
             </div>
 
-            <div>
-                <img src="/uhshacks/longlogo.png" alt="UHS Hacks logo" className='rounded-lg' />
+            <div className='w-full flex justify-center'>
+                <img src="/pslong.png" alt="UHS Hacks logo" className='rounded-lg' />
             </div>
 
             <div className='py-12 text-2xl'>
-                <p>I also developed the website using NextJS and the internal software for the project. You can check out the wesite <span className='underline hover:text-blue-500'><a href="https://uhshacks.com" target='_blank'>here</a></span>.</p>
+                <p>You can try playing it on your own <span className='underline hover:text-blue-500'><a href="https://pokemonorosoft.vercel.app/" target='_blank'>here</a></span>!</p>
             </div>
 
             <div className='mt-12 border border-white px-8 py-4 rounded-xl backdrop-blur-2xl'>
@@ -34,7 +34,7 @@ const page = () => {
                                 Back
                             </li>
                         </Link>
-                        <Link href="/projects/pokemonorosoftware">
+                        <Link href="/projects/modetocode">
                             <li className='hover:bg-white hover:text-black px-3 py-1 rounded-lg duration-200'>
                                 Read more
                             </li>

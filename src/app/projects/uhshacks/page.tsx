@@ -11,7 +11,7 @@ const page = () => {
             </div>
 
             <div className='py-12 text-2xl'>
-                <p>This is a hackathon that I'm hosting at my school, UHS. I helped to raise over $16,000 in funds and prizes. This hackathon is free for any high schooler in the Bay Area that's interested!</p>
+                <p>This is a hackathon that I&apos;m hosting at my school, UHS. I helped to raise over $16,000 in funds and prizes. This hackathon is free for any high schooler in the Bay Area that&apos;s interested!</p>
             </div>
 
             <div>

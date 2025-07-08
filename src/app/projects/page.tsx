@@ -22,17 +22,17 @@ const page = () => {
                     </div>
                     <p className="text-xl px-4">Calls Pokemon API and uses React usetates to create a fun little game!</p>
                     <div className='flex flex-row items-start gap-x-2'>
-                        <a href="/projects/pokemonorsoftware"><button className="w-fit ml-4 hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Read more</button></a>
-                        <a href="https://pokemonorosoft.vercel.app/" target='_blank'><button className="w-fit hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Website</button></a>
-                        <a href="https://github.com/jacob-s-codes/pokemonorosoft" target='_blank'><button className="w-fit hover:cursor-pointer border-white border px-6 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Github</button></a>
+                        <a href="/projects/pokemonorsoftware"><button className="w-fit ml-4 hover:cursor-pointer border-white border lg:px-6 px-3 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Read more</button></a>
+                        <a href="https://pokemonorosoft.vercel.app/" target='_blank'><button className="w-fit hover:cursor-pointer border-white border lg:px-6 px-3 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Website</button></a>
+                        <a href="https://github.com/jacob-s-codes/pokemonorosoft" target='_blank'><button className="w-fit hover:cursor-pointer border-white border lg:px-6 px-3 py-2 hover:bg-darkbg duration-200 ease-in hover:rounded-r-xl">Github</button></a>
                     </div>
-                    <div className="flex flex-row items-stretch justify-between gap-x-8 px-4 border-t-16 border-darkbg h-full">
+                    <div className="flex flex-row items-stretch justify-between lg:gap-x-8 px-4 border-t-16 border-darkbg h-full">
                         <div className="flex flex-col items-start border-darkbg border-r-16 pt-6 lg:pb-0 pb-4 h-full">
-                            <h5 className="font-extrabold text-4xl uppercase">Tech</h5>
+                            <h5 className="font-extrabold md:text-4xl text-3xl uppercase">Tech</h5>
                             <p>Built using NextJS calling the Pokemon API</p>
                         </div>
-                        <div className="flex flex-col items-start pt-6 h-full">
-                            <h5 className="font-black text-4xl uppercase">Inspiration</h5>
+                        <div className="flex flex-col items-start pt-6 h-full lg:ml-0 ml-4">
+                            <h5 className="font-black md:text-4xl text-3xl uppercase">Inspiration</h5>
                             <p>Inspired by Mewtru <a href="">this</a> Mewtru video.</p>
                         </div>
                     </div>
