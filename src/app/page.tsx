@@ -56,7 +56,9 @@ export default function Home() {
           <img src="/nextjslogo.jpeg" alt="nextjs logo" className="w-32 h-auto" />
           <img src="/tailwindlogo.png" alt="tailwindcss" className="w-32 h-auto" />
           <img src="/typescript.svg" alt="typescript" className="w-24 h-auto rounded-lg" />
-          <img src="/gologo.png" alt="go" className="w-32 h-auto" />
+          <img src="/javalogo.webp" alt="java" className="w-32 h-auto" />
+          <img src="/javaslogo.png" alt="javascript" className="w-32 h-auto" />
+          <img src="/react.webp" alt="react" className="w-32 h-auto" />
           <img src="/nodejs.png" alt="" className="w-32 h-auto" />
           <img src="/htmllogo.png" alt="" className="w-32 h-auto text-white" />
 

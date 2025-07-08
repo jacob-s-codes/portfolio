@@ -11,7 +11,7 @@ const Navbar = () => {
                             J.S.
                         </li>
                     </Link>
-                    <div className='flex items-center lg:gap-x-24 gap-x-4'>
+                    <div className='flex items-center lg:gap-x-24 gap-x-1'>
                         {/* <li className='hover:bg-white hover:text-black px-3 py-1 rounded-lg duration-200'>
                         <Link href="/about">About</Link>
                     </li> */}

@@ -3,14 +3,14 @@ import React from 'react'
 
 const page = () => {
     return (
-        <div className='mx-auto w-full max-w-6xl'>
-            <h1 className='text-7xl mt-6 w-fit '>Pokemon or Software?</h1>
+        <div className='mx-auto w-full lg:text-2xl text-xl max-w-6xl'>
+            <h1 className='lg:text-7xl text-5xl mt-6 w-fit '>Pokemon or Software?</h1>
             <hr className='border-2 border-white' />
             <div className='w-full flex items-center justify-center mt-8'>
                 <img src="/psscreen.png" alt="UHS Hacks Pic" className='rounded-lg' />
             </div>
 
-            <div className='py-12 text-2xl'>
+            <div className='py-12'>
                 <p>This is a fun little project that I built, inspired by <a href="https://www.youtube.com/shorts/b-CaKFaefAM" className=" hover:text-blue-500 underline" target="_blank">this video</a>. I built the project using NextJS + the Pokemon API. I created a list of ~30 tech companies/techonlogies and then randomly choose between fetching from the API or from the tech list.</p>
             </div>
 
@@ -18,8 +18,8 @@ const page = () => {
                 <img src="/pslong.png" alt="UHS Hacks logo" className='rounded-lg' />
             </div>
 
-            <div className='py-12 text-2xl'>
-                <p>You can try playing it on your own <span className='underline hover:text-blue-500'><a href="https://pokemonorosoft.vercel.app/" target='_blank'>here</a></span>!</p>
+            <div className='py-12'>
+                <p>The goal of the game is to guess if a name is a Pokemon or a piece of software. You can try playing it on your own <span className='underline hover:text-blue-500'><a href="https://pokemonorosoft.vercel.app/" target='_blank'>here</a></span>!</p>
             </div>
 
             <div className='mt-12 border border-white px-8 py-4 rounded-xl backdrop-blur-2xl'>
