@@ -38,21 +38,30 @@ export default function Home() {
       </div>
 
       <div className="py-48">
-        <h2 className="lg:text-6xl text-5xl font-semibold uppercase">projects:</h2>
-        <hr className="border-2 border-white" />
-        <Projects/>
-        <div className="">
-          <a href="/projects"><button className="w-fit  hover:cursor-pointer border-white border lg:px-12 px-8 py-4 hover:bg-lessdarkbg duration-200 ease-in hover:rounded-r-xl lg:text-2xl text-xl">Read more</button></a>
+        <div className="sticky top-24 mb-18 rounded-lg w-full backdrop-blur-2xl self-start z-10">
+          <h2 className="lg:text-6xl text-5xl font-semibold uppercase">projects:</h2>
+          <hr className="border-2 border-white" />
         </div>
 
+        <Projects />
+        <div>
+          <a href="/projects">
+            <button className="w-fit hover:cursor-pointer border-white border lg:px-12 px-8 py-4 hover:bg-lessdarkbg duration-200 ease-in hover:rounded-r-xl lg:text-2xl text-xl">
+              Read more
+            </button>
+          </a>
+        </div>
       </div>
 
 
 
+
       <div className="py-24">
-        <h2 className="lg:text-5xl text-4xl font-semibold uppercase">tech stack/languages:</h2>
-        <hr className="border-2 border-white mb-8" />
-        <div className="grid lg:grid-cols-7 grid-cols-3 gap-y-4 items-center justify-evenly lg:gap-x-0 gap-x-6">
+        <div className="sticky top-24 mb-18 rounded-lg w-full backdrop-blur-2xl self-start z-10">
+          <h2 className="lg:text-6xl text-5xl font-semibold uppercase">tech stack/languages:</h2>
+          <hr className="border-2 border-white" />
+        </div>
+        <div className="grid grid-cols-3 gap-y-4 place-items-center justify-evenly lg:gap-x-0 gap-x-6">
           <img src="/nextjslogo.jpeg" alt="nextjs logo" className="w-32 h-auto" />
           <img src="/tailwindlogo.png" alt="tailwindcss" className="w-32 h-auto" />
           <img src="/typescript.svg" alt="typescript" className="w-24 h-auto rounded-lg" />

@@ -3,7 +3,7 @@ import React from 'react'
 const Projects = () => {
     return (
         <div>
-            <div className=" my-12 rounded-4xl flex md:flex-row flex-col items-stretch justify-between overflow-hidden">
+            <div className=" rounded-4xl flex md:flex-row flex-col items-stretch justify-between overflow-hidden">
                 <img
                     src="/mtccropped.png"
                     alt="mode to code logo"
