@@ -21,7 +21,7 @@ const courierPrime = Courier_Prime({
 });
 
 export const metadata: Metadata = {
-  title: "Jacob Shaul's Portfolio | Home",
+  title: "Jacob Shaul | Home",
   description: "My personal software portfolio.",
 };
 
