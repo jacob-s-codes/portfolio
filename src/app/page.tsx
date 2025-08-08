@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex lg:flex-row flex-col-reverse lg:items-center items-start justify-between">
         <div className="flex flex-col items-start gap-6 max-w-2xl">
           <h1 className="lg:text-8xl md:text-6xl text-5xl lg:pt-0 pt-4 font-semibold uppercase">Jacob Shaul</h1>
-          <div className="flex items-center justify-between lg:text-2xl md:text-lg text-base font-semibold w-full uppercase">
+          <div className="flex items-center justify-between lg:text-2xl md:text-lg text-sm font-semibold w-full uppercase">
             <h2>Student</h2>
             <h2>|</h2>
             <h2>Full-stack developer</h2>
@@ -34,7 +34,9 @@ export default function Home() {
               </svg></a>
           </div>
         </div>
-        <img src="/jacobbgremove.png" alt="Jacob's Avatar" className="w-96 h-96 rounded-full border-4 border-white" />
+        <div className="flex w-full justify-center">
+          <img src="/jacobbgremove.png" alt="Jacob's Avatar" className="lg:w-96 lg:h-96 w-80 h-80 rounded-full border-4 border-white" />
+        </div>
       </div>
 
       <div className="py-48">
