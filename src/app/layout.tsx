@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Courier_Prime } from "next/font/google";
 import Navbar from "./components/Navbar";
+import { Analytics } from "@vercel/analytics/next"
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -35,6 +36,7 @@ export default function RootLayout({
       <body
         className={`${courierPrime.variable}  antialiased w-full max-w-7xl mx-auto px-4 py-8 bg-darkbg`}
       >
+        <Analytics/>
         <Navbar />
         {children}
       </body>
