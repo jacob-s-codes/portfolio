@@ -6,7 +6,7 @@ const HomeClient = () => {
     <div className="w-full  mx-auto lg:px-4 px-2 py-8">
       <div className="flex lg:flex-row flex-col-reverse lg:items-center items-start justify-between">
         <div className="flex flex-col items-start gap-6 max-w-2xl">
-          <h1 className="lg:text-8xl md:text-6xl text-5xl lg:pt-0 pt-4 font-semibold uppercase">Jacob Shaul</h1>
+          <h1 className="lg:text-7xl md:text-6xl text-5xl lg:pt-0 pt-4 font-semibold uppercase">Jacob Shaul</h1>
           <div className="flex items-center justify-between lg:text-2xl md:text-lg text-sm font-semibold w-full uppercase">
             <h2>Student</h2>
             <h2>|</h2>
