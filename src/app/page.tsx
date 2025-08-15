@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
   title: "Jacob Shaul | Home",
-  description: "Hi! My name is Jacob Shaul, a full-stack high school developer.",
+  description: "Jacob Shaul; full-stack high school developer.",
 }
 
 
