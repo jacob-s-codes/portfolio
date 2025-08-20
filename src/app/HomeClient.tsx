@@ -14,7 +14,7 @@ const HomeClient = () => {
             <h2>|</h2>
             <h2>Founder</h2>
           </div>
-          <h3 className="lg:text-xl text-base">Hi! My name is Jacob and I&apos;m a high school student at San Francisco University High School interning <a href="https://tesseral.com/" target="_blank" className="text-blue-500 hover:text-blue-300">@Tesseral</a></h3>
+          <h3 className="lg:text-xl text-base">Hi! My name is Jacob and I&apos;m a high school student at San Francisco University High School, previously interning <a href="https://tesseral.com/" target="_blank" className="text-blue-500 hover:text-blue-300">@Tesseral</a></h3>
           <div className="flex items-center lg:gap-8 gap-6">
             <a href="https://github.com/jacob-s-codes" target="_blank" className="hover:text-black border border-white hover:rounded-r-xl p-2 hover:bg-white duration-200">
               <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" className="bi bi-github lg:w-8 w-6 h-auto" viewBox="0 0 16 16">
