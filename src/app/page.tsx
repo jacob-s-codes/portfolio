@@ -5,7 +5,7 @@ import type { Metadata } from 'next'
  
 export const metadata: Metadata = {
   title: "Jacob Shaul | Home",
-  description: "Full-stack high school developer.",
+  description: "Student | Full Stack Developer | Founder",
   icons: {
     icon: '/favicon.ico'
   }
