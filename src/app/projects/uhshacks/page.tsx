@@ -7,7 +7,7 @@ const page = () => {
             <h1 className='lg:text-7xl text-5xl mt-6'>UHS Hacks</h1>
             <hr className='border-2 border-white' />
             <div className='w-full flex items-center justify-center mt-8'>
-                <img src="/uhshacks/uhshackspic.png" alt="UHS Hacks Pic" className='rounded-lg' />
+                <img src="/uhshacks/fullimage.jpg" alt="UHS Hacks Pic" className='rounded-lg' />
             </div>
 
             <div className='py-12'>
