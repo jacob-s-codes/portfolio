@@ -59,7 +59,7 @@ const HomeClient = () => {
 
       <div className="py-24">
         <div className="sticky top-24 mb-18 rounded-lg w-full backdrop-blur-2xl self-start z-10">
-          <h2 className="lg:text-6xl text-5xl font-semibold uppercase">tech stack/languages:</h2>
+          <h2 className="lg:text-6xl text-4xl font-semibold uppercase">tech stack/languages:</h2>
           <hr className="border-2 border-white" />
         </div>
         <div className="grid grid-cols-3 gap-y-4 place-items-center justify-evenly lg:gap-x-0 gap-x-6">
