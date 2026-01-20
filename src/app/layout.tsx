@@ -38,11 +38,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${courierPrime.variable}  antialiased w-full bg-darkbg`}
+        className={`${courierPrime.variable} antialiased w-full bg-darkbg`}
       >
-        <Analytics/>
-        <Navbar />
-        {children}
+        <div className="lg:px-0 px-6">
+          <Analytics />
+          <Navbar />
+          {children}
+        </div>
+
         <Footer />
       </body>
     </html>
