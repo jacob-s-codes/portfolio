@@ -1,3 +1,4 @@
+import Bottombuttons from '@/app/components/Bottombuttons'
 import Link from 'next/link'
 import React from 'react'
 
@@ -27,37 +28,23 @@ const page = () => {
                 <img src="/mtc/meettheteambg.jpg" alt="meet the team" className=' rounded-lg' />
             </div>
 
-
-
-            <div className='pt-12 lg:text-2xl text-xl flex md:flex-row flex-col items-center justify-evenly gap-x-8'>
-                <div className='flex flex-col gap-y-6'>
-                    <p>Together, we have taught more than 900 students across 5 continents. We also partnered with Breakthrough Summerbridge, a non-profit that helps under-privleged students gain access to education.</p>
-                    <p>You can check out a news piece written in the Ingleside Light about the program: </p>
-                </div>
-                <div className='md:w-[2000px] w-full md:mt-0 mt-4'>
-                    <a href="https://www.inglesidelight.com/mode-to-code-jacob-shaul/" target='_blank'>
-                        <img src="/mtc/inglesidepiece.png" alt="ingleside piece" className='rounded-lg hover:shadow-xl hover:shadow-white duration-500' />
-                    </a>
-                </div>
+            <div className='pt-12 pb-6'>
+                <p>Together, we have taught more than 900 students across 5 continents. We also partnered with Breakthrough Summerbridge, a non-profit that helps under-privleged students gain access to education. You can check out some news pieces written about the program: </p>
             </div>
 
-            <div className='mt-12 border border-white px-8 py-4 rounded-xl backdrop-blur-2xl'>
-                <div>
-                    <ul className='flex items-center justify-between text-white text-lg font-semibold'>
-
-                        {/* <li className='hover:bg-white hover:text-black px-3 py-1 rounded-lg duration-200'>
-                        <Link href="/about">About</Link>
-                    </li> */}
-                        <li className='hover:bg-white hover:text-black px-3 py-1 rounded-lg duration-200'>
-                            <Link href="/projects">Back</Link>
-                        </li>
-                        <li className='hover:bg-white hover:text-black px-3 py-1 rounded-lg duration-200'>
-                            <Link href="/projects/uhshacks">Read more</Link>
-                        </li>
-                    </ul>
-
-                </div>
+            <div>
+                <ul className='list-disc list-inside space-y-2'>
+                    <li><a href="https://www.cnn.com/2025/09/27/tech/sillicon-valley-seniors-ai-course" target='_blank' className='underline hover:text-paleslate'>CNN</a></li>
+                    <li><a href="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/" target='_blank' className='underline hover:text-paleslate'>NBC Bay Area</a></li>
+                    <li><a href="https://www.sfchronicle.com/college-admissions/article/college-application-university-california-20889356.php" target='_blank' className='underline hover:text-paleslate'>San Francisco Chronicle</a></li>
+                    <li><a href="https://www.kron4.com/video/workshop-helps-seniors-spot-online-scams/11341091/" target='_blank' className='underline hover:text-paleslate'>KRON4 News</a></li>
+                </ul>
             </div>
+            <div className='py-12'>
+                <p>You can learn more <a href="https://modetocode.com" target="_blank" className='underline hover:text-paleslate'>here</a>.</p>
+            </div>
+
+           <Bottombuttons link='/projects/uhshacks' /> 
 
 
 

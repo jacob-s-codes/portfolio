@@ -2,13 +2,19 @@
 
 
 @theme inline {
-  --color-darkbg: #212529;
-  --color-lessdarkbg: #343A40;
+  --color-darkbg: #0D1B2A;
+  --color-lessdarkbg: #1B263B;
+  --color-accent: #415A77;
+  --color-lightaccent: #778DA9;
+  --color-slategray: #5C7490;
+  --color-whiteaccent: #E0E1DD;
+  --color-blueslate: #48617E;
+  --color-paleslate: #ACB7C3;
 }
 
 html {
   font-family: "Courier Prime", monospace;
-  background-color: #212529;
+  background-color: #0D1B2A;
   color: white;
 }
 

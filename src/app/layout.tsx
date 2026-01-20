@@ -4,6 +4,7 @@ import "./globals.css";
 import { Courier_Prime } from "next/font/google";
 import Navbar from "./components/Navbar";
 import { Analytics } from "@vercel/analytics/next"
+import Footer from "./components/Footer";
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -37,11 +38,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${courierPrime.variable}  antialiased w-full max-w-7xl mx-auto px-4 py-8 bg-darkbg`}
+        className={`${courierPrime.variable}  antialiased w-full bg-darkbg`}
       >
         <Analytics/>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
