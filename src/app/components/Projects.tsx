@@ -38,9 +38,9 @@ const Projects = () => {
 
             <div className=" my-12 rounded-4xl flex lg:flex-row-reverse flex-col items-stretch justify-between overflow-hidden">
                 <img
-                    src="/uhshacks.png"
+                    src="/uhshacks/fullimage.jpg"
                     alt="mode to code logo"
-                    className="lg:rounded-r-4xl rounded-r-none lg:border-l-16 border-darkbg object-cover w-full"
+                    className="lg:rounded-r-4xl rounded-r-none lg:border-l-16 border-darkbg object-cover w-2xl"
                 />
 
                 <div className="w-full bg-lessdarkbg flex flex-col gap-y-6 justify-center">

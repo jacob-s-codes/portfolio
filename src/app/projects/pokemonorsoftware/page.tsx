@@ -22,7 +22,7 @@ const page = () => {
             <div className='py-12'>
                 <p>The goal of the game is to guess if a name is a Pokemon or a piece of software. You can try playing it on your own <span className='underline hover:text-paleslate'><a href="https://pokemonorosoft.vercel.app/" target='_blank'>here</a></span>!</p>
             </div>
-            <Bottombuttons link='/projects/modetocode' />
+            <Bottombuttons link='/projects/24live' />
 
 
 
