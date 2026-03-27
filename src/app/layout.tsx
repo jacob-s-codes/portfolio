@@ -40,7 +40,7 @@ export default function RootLayout({
       <body
         className={`${courierPrime.variable} antialiased w-full bg-darkbg`}
       >
-        <div className="lg:px-0 px-6">
+        <div className="xl:px-0 px-6">
           <Analytics />
           <Navbar />
           {children}

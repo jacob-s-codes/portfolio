@@ -5,7 +5,7 @@ import CryptoText from './Cryptotext'
 const Navbar = () => {
     return (
         <div className='top-4 max-w-7xl mx-auto sticky z-50 border border-white lg:px-8 px-2 py-4 rounded-xl backdrop-blur-xl'>
-            <div>
+            <div className='mx-auto'>
                 <ul className='flex items-center justify-between text-white lg:text-lg text-base font-semibold'>
                     <Link href="/">
                         <CryptoText text="J.S."/>
