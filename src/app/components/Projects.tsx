@@ -24,8 +24,8 @@ const Projects = () => {
                     </div>
                     <div className="flex flex-row items-stretch justify-between gap-x-8 px-4 border-t-16 border-darkbg h-full">
                         <div className="flex flex-col items-start border-darkbg border-r-16 pt-6 md:pb-0 pb-4 h-full">
-                            <h5 className="font-extrabold text-4xl uppercase">1200+</h5>
-                            <p className='pr-4'>Taught over 1200 students around the world about coding.</p>
+                            <h5 className="font-extrabold text-4xl uppercase">1500+</h5>
+                            <p className='pr-4'>Taught over 1500 students around the world about coding.</p>
                         </div>
                         <div className="flex flex-col items-start pt-6 h-full">
                             <h5 className="font-black text-4xl uppercase">15</h5>
@@ -57,8 +57,8 @@ const Projects = () => {
                     </div>
                     <div className="flex flex-row items-stretch justify-between gap-x-8 px-4 border-t-16 border-darkbg h-full">
                         <div className="flex flex-col items-start border-r-16 border-darkbg h-full pt-4 md:pb-0 pb-4">
-                            <h5 className="font-extrabold text-4xl uppercase">50</h5>
-                            <p>50 students participated for free at UHS Hacks.</p>
+                            <h5 className="font-extrabold text-4xl uppercase">50+</h5>
+                            <p>50+ students participated for free at UHS Hacks.</p>
                         </div>
                         <div className="flex flex-col items-start pt-4 h-full">
                             <h5 className="font-black text-4xl uppercase">8</h5>
