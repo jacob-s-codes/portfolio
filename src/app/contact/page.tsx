@@ -9,7 +9,7 @@ const page = () => {
 
                 <div className='text-2xl mt-12 flex flex-col gap-y-8'>
                     <div>
-                        <h3>You can email me at: <a href="mailto:jacobbshaul@gmail.com" className='hover:text-gray-400'>jacobbshaul@gmail.com</a></h3>
+                        <h3>You can email me at: <a href="mailto:jshaul@berkeley.edu" className='hover:text-gray-400'>jshaul@berkeley.edu</a></h3>
                     </div>
                     <div>
                         <h3>Find my projects on Github: <a href="https://github.com/jacob-s-codes" className='hover:text-gray-400' target='_blank'>@jacob-s-codes</a></h3>
