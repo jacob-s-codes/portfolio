@@ -33,7 +33,7 @@ const ProjectsClient = () => {
                         </div>
                         <div className="flex flex-col items-start pt-6 h-full lg:ml-0 ml-4">
                             <h5 className="font-black md:text-4xl text-3xl uppercase">Inspiration</h5>
-                            <p>Inspired by Mewtru <a href="">this</a> Mewtru video.</p>
+                            <p>Inspired by <a href="https://www.youtube.com/shorts/b-CaKFaefAM" className='underline' target='_blank'>this</a> Mewtru video.</p>
                         </div>
                     </div>
                 </div>
