@@ -16,12 +16,13 @@ const HomeClient = () => {
             <h2>|</h2>
             <h2>Founder</h2>
           </div>
-          <h3 className="lg:text-xl text-base">Incoming CS student <a href="https://www.berkeley.edu/" target="_blank" className="text-paleslate underline hover:text-white"><NoStyleCryptotext text={'@UC Berkeley'}/></a>, previously interning <a href="https://tesseral.com/" target="_blank" className="text-paleslate hover:text-white underline"><NoStyleCryptotext text={'@Tesseral'}/></a>. As seen on:
-          <ul className='list-disc pl-5'>
-            <li><a href="https://www.cnn.com/2025/09/27/tech/sillicon-valley-seniors-ai-course" target="_blank" className="text-paleslate underline hover:text-white"><NoStyleCryptotext text={'CNN'}/></a></li>
-            <li><a href="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/" target='_blank' className="text-paleslate hover:text-white underline"><NoStyleCryptotext text={'NBC Bay Area'}/></a></li>
-            <li><a href="https://www.ktvu.com/news/teen-teaching-ai-free-grows-program-international-movement" target='_blank' className="text-paleslate hover:text-white underline"><NoStyleCryptotext text={'KTVU Fox'}/></a></li>
-          </ul>
+          <h3 className="lg:text-xl text-base">Incoming CS student <a href="https://www.berkeley.edu/" target="_blank" className="text-paleslate underline hover:text-white"><NoStyleCryptotext text={'@UC Berkeley'} /></a>, previously interning <a href="https://tesseral.com/" target="_blank" className="text-paleslate hover:text-white underline"><NoStyleCryptotext text={'@Tesseral'} /></a>. As seen on:
+            <ul className='list-disc pl-5'>
+              <li><a href="https://www.cnn.com/2025/09/27/tech/sillicon-valley-seniors-ai-course" target="_blank" className="text-paleslate underline hover:text-white"><NoStyleCryptotext text={'CNN'} /></a></li>
+              <li><a href="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/" target='_blank' className="text-paleslate hover:text-white underline"><NoStyleCryptotext text={'NBC Bay Area'} /></a></li>
+              <li><a href="https://www.ktvu.com/news/teen-teaching-ai-free-grows-program-international-movement" target='_blank' className="text-paleslate hover:text-white underline"><NoStyleCryptotext text={'KTVU Fox'} /></a></li>
+              <li><a href="https://dillerteenawards.org/recipient/jacob-shaul/" target='_blank' className="text-paleslate hover:text-white underline"><NoStyleCryptotext text={'Diller Teen Award Recipient'} /></a></li>
+            </ul>
           </h3>
           <div className="flex items-center lg:gap-8 gap-6">
             <a href="https://github.com/jacob-s-codes" target="_blank" className="hover:text-black border border-white hover:rounded-r-xl p-2 hover:bg-white duration-200">
@@ -68,7 +69,7 @@ const HomeClient = () => {
 
 
       <div className="py-16">
-        <Techstack/>
+        <Techstack />
 
         {/* <h3 className="text-4xl py-4">Backend:</h3>
         <div className="flex items-center justify-evenly">
