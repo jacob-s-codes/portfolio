@@ -43,7 +43,7 @@ const HomeClient = () => {
           </div>
         </div>
         <div className="flex w-full justify-center">
-          <img src="/jacobbgremove.png" alt="Jacob's Avatar" className="lg:w-96 lg:h-96 w-80 h-80 rounded-full border-4 border-white" />
+          <img src="/profilepicture.png" alt="Jacob's Avatar" className="lg:w-96 lg:h-96 w-80 h-80 rounded-full border-4 border-white" />
         </div>
       </div>
 

@@ -12,7 +12,7 @@ const page = () => {
             </div>
 
             <div className='py-12 '>
-                <p>This was a project that I started during my Sophmore year. I had my first experience with web development, building out the Mode to Code website which took many iterations (and many failed attempts). Mode to Code taught students of all ages about coding and technology. We partnered with over 25 different institutions, teaching middle schoolers about web development and senior citizens about AI and cybersecurity.</p>
+                <p>This was a project that I started during my Sophomore year. I had my first experience with web development, building out the Mode to Code website which took many iterations (and many failed attempts). Mode to Code taught students of all ages about coding and technology. We partnered with over 30 different institutions, teaching middle schoolers about web development and senior citizens about AI and cybersecurity.</p>
             </div>
 
             <div className='flex lg:flex-row flex-col justify-between items-center gap-x-4 gap-y-4 overflow-hidden'>
@@ -29,15 +29,16 @@ const page = () => {
             </div>
 
             <div className='pt-12 pb-6'>
-                <p>Together, we have taught more than 900 students across 5 continents. We also partnered with Breakthrough Summerbridge, a non-profit that helps under-privleged students gain access to education. You can check out some news pieces written about the program: </p>
+                <p>Together, we have taught more than 1,500 students across 5 continents. We also partnered with Breakthrough Summerbridge, a non-profit that helps under-privleged students gain access to education. You can check out some news pieces written about the program: </p>
             </div>
 
             <div>
                 <ul className='list-disc list-inside space-y-2'>
                     <li><a href="https://www.cnn.com/2025/09/27/tech/sillicon-valley-seniors-ai-course" target='_blank' className='underline hover:text-paleslate'>CNN</a></li>
                     <li><a href="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/" target='_blank' className='underline hover:text-paleslate'>NBC Bay Area</a></li>
+                    <li><a href="https://dillerteenawards.org/recipient/jacob-shaul/" target='_blank' className='underline hover:text-paleslate'>Diller Teen Tikkun Olam Award</a></li>
                     <li><a href="https://www.sfchronicle.com/college-admissions/article/college-application-university-california-20889356.php" target='_blank' className='underline hover:text-paleslate'>San Francisco Chronicle</a></li>
-                    <li><a href="https://www.kron4.com/video/workshop-helps-seniors-spot-online-scams/11341091/" target='_blank' className='underline hover:text-paleslate'>KRON4 News</a></li>
+                    <li><a href="https://www.ktvu.com/news/teen-teaching-ai-free-grows-program-international-movement" target='_blank' className='underline hover:text-paleslate'>KTVU Fox</a></li>
                 </ul>
             </div>
             <div className='py-12'>
