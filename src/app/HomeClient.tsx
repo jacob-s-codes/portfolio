@@ -9,14 +9,14 @@ const HomeClient = () => {
       <div className="flex lg:flex-row flex-col-reverse lg:items-center items-start justify-between py-8">
         <div className="flex flex-col items-start gap-6 max-w-2xl">
           <h1 className="lg:text-7xl md:text-6xl text-5xl lg:pt-0 pt-4 font-semibold uppercase">Jacob Shaul</h1>
-          <div className="flex items-center justify-between lg:text-2xl md:text-lg text-sm font-semibold w-full uppercase">
+          <div className="flex items-center justify-between lg:text-xl md:text-lg text-sm font-semibold w-full uppercase">
             <h2>Student</h2>
             <h2>|</h2>
             <h2>Full-stack developer</h2>
             <h2>|</h2>
             <h2>Founder</h2>
           </div>
-          <h3 className="lg:text-xl text-base">Incoming CS student <a href="https://www.berkeley.edu/" target="_blank" className="text-paleslate underline hover:text-white"><NoStyleCryptotext text={'@UC Berkeley'} /></a>, previously interning <a href="https://tesseral.com/" target="_blank" className="text-paleslate hover:text-white underline"><NoStyleCryptotext text={'@Tesseral'} /></a>. As seen on:
+          <h3 className="lg:text-xl text-base">CS student <a href="https://www.berkeley.edu/" target="_blank" className="text-paleslate underline hover:text-white"><NoStyleCryptotext text={'@UC Berkeley'} /></a>, previously interning <a href="https://www.ycombinator.com/companies/tesseral" target="_blank" className="text-paleslate hover:text-white underline"><NoStyleCryptotext text={'@Tesseral'} /></a>. As seen on:
             <ul className='list-disc pl-5'>
               <li><a href="https://www.cnn.com/2025/09/27/tech/sillicon-valley-seniors-ai-course" target="_blank" className="text-paleslate underline hover:text-white"><NoStyleCryptotext text={'CNN'} /></a></li>
               <li><a href="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/" target='_blank' className="text-paleslate hover:text-white underline"><NoStyleCryptotext text={'NBC Bay Area'} /></a></li>

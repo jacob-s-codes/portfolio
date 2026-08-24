@@ -17,11 +17,11 @@ const Navbar = () => {
                         <Link href="/projects">
                             <CryptoText text="Projects"/>
                         </Link>
-                        <Link href="/contact">
+                        {/* <Link href="/contact">
                             <CryptoText text="Contact"/>
 
 
-                        </Link>
+                        </Link> */}
                     </div>
                 </ul>
 
