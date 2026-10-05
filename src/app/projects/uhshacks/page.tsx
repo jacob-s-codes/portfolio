@@ -13,7 +13,7 @@ const page = () => {
                     <p>San Francisco, CA</p>
                 </div>
             </div>
-            <div className="relative mx-auto w-full max-w-6xl lg:text-2xl text-xl z-10 overflow-hidden">
+            <div className="relative mx-auto w-full max-w-6xl lg:text-2xl text-xl z-10">
                 <div className='w-full flex items-center justify-center mt-8'>
                     <img src="/uhshacks/fullimage.jpg" alt="UHS Hacks Pic" className='rounded-lg' />
                 </div>

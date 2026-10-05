@@ -19,31 +19,33 @@ const Bottombuttons: React.FC<BottombuttonsProps> = ({ currentProject }) => {
     const [hoveredProject, setHoveredProject] = useState<string | null>(null)
 
     return (
-        <section className='mt-16 ' aria-labelledby='more-projects-heading'>
-           <h3 className="lg:text-4xl md:text-3xl text-2xl lg:pt-0 pt-4 uppercase">M<span className="lg:text-3xl md:text-2xl text-xl">ore</span> P<span className="lg:text-3xl md:text-2xl text-xl">rojects</span></h3> 
-            <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
-                {otherProjects.map((project) => (
-                    <Link
-                        key={project.id}
-                        href={project.href}
-                        className='group min-w-0'
-                        onMouseEnter={() => setHoveredProject(project.id)}
-                        onMouseLeave={() => setHoveredProject(null)}
-                    >
-                        <img
-                            src={project.image}
-                            alt={project.title}
-                            className='aspect-video w-full rounded-md object-cover transition-opacity duration-200 '
-                        />
-                        <span className='mt-2 block '>
-                            <CryptoText text={project.title} isActive={hoveredProject === project.id} />
-                        </span>
-                    </Link>
-                ))}
+        <section className='relative left-1/2 mt-16 w-screen -translate-x-1/2 mb-[-48px] bg-lessdarkbg py-12' aria-labelledby='more-projects-heading'>
+            <div className='mx-auto max-w-6xl p-6'>
+                <h3 className="lg:text-4xl md:text-3xl text-2xl lg:pt-0 pt-4 uppercase">M<span className="lg:text-3xl md:text-2xl text-xl">ore</span> P<span className="lg:text-3xl md:text-2xl text-xl">rojects</span></h3>
+                <div className='grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3'>
+                    {otherProjects.map((project) => (
+                        <Link
+                            key={project.id}
+                            href={project.href}
+                            className='group min-w-0'
+                            onMouseEnter={() => setHoveredProject(project.id)}
+                            onMouseLeave={() => setHoveredProject(null)}
+                        >
+                            <img
+                                src={project.image}
+                                alt={project.title}
+                                className='aspect-video w-full rounded-md object-cover transition-opacity duration-200 '
+                            />
+                            <span className='mt-2 block '>
+                                <CryptoText text={project.title} isActive={hoveredProject === project.id} />
+                            </span>
+                        </Link>
+                    ))}
+                </div>
+                <Link href='/projects' className='mt-6 inline-block underline '>
+                    <CryptoText text="All projects" />
+                </Link>
             </div>
-            <Link href='/projects' className='mt-6 inline-block underline '>
-                <CryptoText text="All projects" />
-            </Link>
         </section>
     )
 }
