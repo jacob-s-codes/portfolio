@@ -6,10 +6,11 @@ import React from 'react'
 const page = () => {
     return (
         <div className=''>
-            <div className="bg-gray-800 -mt-[70px] pt-32 pb-6 -mx-6 xl:mx-0">
+            <div className="bg-lessdarkbg -mt-[70px] pt-32 pb-6 -mx-6 xl:mx-0">
                 <div className="mx-auto w-full max-w-6xl px-6 xl:px-0 lg:text-2xl text-xl">
                     <p>PROJECT / 2026</p>
-                    <h1 className='lg:text-7xl text-5xl mt-6 w-fit '>UHS Hacks</h1>
+                    <h1 className="lg:text-7xl md:text-6xl text-5xl lg:pt-0 pt-4 uppercase">U<span className="lg:text-6xl md:text-5xl text-4xl">HS</span> H<span className="lg:text-6xl md:text-5xl text-4xl">acks</span></h1>
+                    <p>San Francisco, CA</p>
                 </div>
             </div>
             <div className="relative mx-auto w-full max-w-6xl lg:text-2xl text-xl z-10 overflow-hidden">
@@ -29,7 +30,7 @@ const page = () => {
                     <p>I also developed the website using NextJS and the internal software for the project. You can check out the wesite <span className='underline '><a href="https://uhshacks.com" target='_blank'><NoStyleCryptotext text="here" /></a></span>.</p>
                 </div>
 
-                <Bottombuttons link='/projects/pokemonorsoftware' />
+                <Bottombuttons currentProject='uhshacks' />
             </div>
 
 

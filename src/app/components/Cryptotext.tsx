@@ -43,7 +43,7 @@ const CryptoText: React.FC<CryptoTextProps> = ({ text, className }) => {
 
   return (
     <span
-      className={`cursor-pointer transition-colors duration-300 ${className} hover:bg-white hover:text-black px-3 py-1 rounded-lg duration-200`}
+      className={`cursor-pointer transition-colors duration-300 ${className}   px-3 py-1 rounded-lg duration-200`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >

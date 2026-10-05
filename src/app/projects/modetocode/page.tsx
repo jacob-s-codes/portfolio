@@ -7,10 +7,11 @@ import React from 'react'
 const page = () => {
     return (
         <div className=''>
-            <div className="bg-gray-800 -mt-[70px] pt-32 pb-6 -mx-6 xl:mx-0">
+            <div className="bg-lessdarkbg -mt-[70px] pt-32 pb-6 -mx-6 xl:mx-0">
                 <div className="mx-auto w-full max-w-6xl px-6 xl:px-0 lg:text-2xl text-xl">
                     <p>PROJECT / 2026</p>
-                    <h1 className='lg:text-7xl text-5xl mt-6 w-fit '>Mode to Code</h1>
+                    <h1 className="lg:text-7xl md:text-6xl text-5xl lg:pt-0 pt-4 uppercase">M<span className="lg:text-6xl md:text-5xl text-4xl">ode</span> t<span className="lg:text-6xl md:text-5xl text-4xl">o </span>C<span className="lg:text-6xl md:text-5xl text-4xl">ode</span></h1>
+                    <p className="">San Francisco, CA</p>
                 </div>
             </div>
             <div className="mx-auto w-full max-w-6xl lg:text-2xl text-xl">
@@ -52,7 +53,7 @@ const page = () => {
                     <p>You can learn more <a href="https://modetocode.com" target="_blank" className='underline '><NoStyleCryptotext text="here"/></a>.</p>
                 </div>
 
-                <Bottombuttons link='/projects/uhshacks' />
+                <Bottombuttons currentProject='modetocode' />
             </div>
 
         </div>

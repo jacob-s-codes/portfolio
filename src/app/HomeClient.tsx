@@ -8,7 +8,7 @@ const HomeClient = () => {
     <div className="w-full max-w-7xl  mx-auto lg:px-4 ">
       <div className="flex lg:flex-row flex-col-reverse lg:items-center items-start justify-between py-8">
         <div className="flex flex-col items-start gap-6 max-w-2xl">
-          <h1 className="lg:text-7xl md:text-6xl text-5xl lg:pt-0 pt-4 font-semibold uppercase">J<span className="lg:text-6xl md:text-5xl text-4xl">acob</span> S<span className="lg:text-6xl md:text-5xl text-4xl">haul</span></h1>
+          <h1 className="lg:text-7xl md:text-6xl text-5xl lg:pt-0 pt-4 uppercase">J<span className="lg:text-6xl md:text-5xl text-4xl">acob</span> S<span className="lg:text-6xl md:text-5xl text-4xl">haul</span></h1>
           {/* <div className="flex items-center justify-between lg:text-xl md:text-lg text-sm font-semibold w-full uppercase">
             <h2>Student</h2>
             <h2>|</h2>
@@ -16,7 +16,7 @@ const HomeClient = () => {
             <h2>|</h2>
             <h2>Founder</h2>
           </div> */}
-          <h3 className="lg:text-xl text-base">CS <a href="https://www.berkeley.edu/" target="_blank" className="text-paleslate underline hover:text-white"><NoStyleCryptotext text={'@UC Berkeley'} /></a>, previously interning <a href="https://www.ycombinator.com/companies/tesseral" target="_blank" className="text-paleslate hover:text-white underline"><NoStyleCryptotext text={'@Tesseral'} /></a>. As seen on:
+          <h3 className="lg:text-xl text-base">CS <a href="https://www.berkeley.edu/" target="_blank" className="text-paleslate underline hover:text-white"><NoStyleCryptotext text={'@UC Berkeley'} /></a>. Undergrad Researcher @ACE Lab. Previously interning <a href="https://www.ycombinator.com/companies/tesseral" target="_blank" className="text-paleslate hover:text-white underline"><NoStyleCryptotext text={'@Tesseral'} /></a>. As seen on:
             <ul className='list-disc pl-5'>
               <li><a href="https://www.cnn.com/2025/09/27/tech/sillicon-valley-seniors-ai-course" target="_blank" className="text-paleslate underline hover:text-white"><NoStyleCryptotext text={'CNN'} /></a></li>
               <li><a href="https://www.nbcbayarea.com/video/news/local/sf-teen-is-helping-other-students-learn-computer-coding/3953420/" target='_blank' className="text-paleslate hover:text-white underline"><NoStyleCryptotext text={'NBC Bay Area'} /></a></li>
@@ -49,8 +49,7 @@ const HomeClient = () => {
 
       <div className="py-16">
         <div className='pb-4'>
-          <h2 className="lg:text-6xl text-5xl font-semibold uppercase">projects:</h2>
-          <hr className="border-2 border-white" />
+          <h2 className="lg:text-7xl md:text-6xl text-5xl lg:pt-0 pt-4 uppercase">P<span className="lg:text-6xl md:text-5xl text-4xl">rojects</span></h2>
         </div>
 
 
@@ -68,7 +67,7 @@ const HomeClient = () => {
 
 
 
-      <div className="py-16">
+      <div className="">
         <Techstack />
 
         {/* <h3 className="text-4xl py-4">Backend:</h3>

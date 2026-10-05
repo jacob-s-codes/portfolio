@@ -4,13 +4,13 @@ import Imageforstack from './Imageforstack'
 
 const Techstack = () => {
   return (
-    <div>
-      <div className="sticky top-24 mb-18 rounded-lg w-full backdrop-blur-2xl self-start z-10">
-        <h2 className="lg:text-6xl text-4xl font-semibold uppercase">tech stack/languages:</h2>
-        <hr className="border-2 border-white" />
-      </div>
-      <div className=" h-[200px] rounded-2xl w-8xl">
-        <Marquee className="gap-x-8 py-3 overflow-hidden grid" speed={150} pauseOnHover={true}>
+    <div className="relative left-1/2 -ml-[50vw] py-24 w-screen bg-lessdarkbg mb-[-48px]">
+      <div className="mx-auto w-full max-w-7xl lg:px-4 px-6">
+        <div className="sticky top-24 mb-18 rounded-lg w-full backdrop-blur-2xl self-start z-10">
+          <h2 className="lg:text-7xl md:text-6xl text-5xl lg:pt-0 pt-4 uppercase">T<span className="lg:text-6xl md:text-5xl text-4xl">ech</span> S<span className="lg:text-6xl md:text-5xl text-4xl">tack</span></h2>
+        </div>
+        <div className=" h-[200px] rounded-2xl w-8xl">
+          <Marquee className="gap-x-8 py-3 overflow-hidden grid" speed={150} pauseOnHover={true}>
           <Imageforstack src="/nextlogo.png" />
           <Imageforstack src="/tailwindlogo.png" />
           <Imageforstack src="/typescript.svg" />
@@ -35,7 +35,8 @@ const Techstack = () => {
               </linearGradient>
             </defs>
           </svg>
-        </Marquee>
+          </Marquee>
+        </div>
       </div>
     </div>
   )

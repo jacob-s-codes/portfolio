@@ -6,10 +6,10 @@ import React from 'react'
 const page = () => {
     return (
         <div className=''>
-            <div className="bg-gray-800 -mt-[70px] pt-32 pb-6 -mx-6 xl:mx-0">
+            <div className="bg-lessdarkbg -mt-[70px] pt-32 pb-6 -mx-6 xl:mx-0">
                 <div className="mx-auto w-full max-w-6xl px-6 xl:px-0 lg:text-2xl text-xl">
-                    <p>PROJECT / 2025</p>
-                    <h1 className='lg:text-7xl text-5xl mt-6 w-fit '>Pokémon or Software?</h1>
+                    <p> PROJECT / 2025</p>
+                    <h1 className="lg:text-7xl md:text-6xl text-5xl lg:pt-0 pt-4 uppercase">P<span className="lg:text-6xl md:text-5xl text-4xl">okémon</span> O<span className="lg:text-6xl md:text-5xl text-4xl">r</span> S<span className="lg:text-6xl md:text-5xl text-4xl">oftware?</span></h1>
                 </div>
             </div>
             <div className="mx-auto w-full lg:text-2xl text-xl max-w-6xl">
@@ -28,7 +28,7 @@ const page = () => {
                 <div className='py-12'>
                     <p>The goal of the game is to guess if a name is a Pokemon or a piece of software. You can try playing it on your own <span className='underline '><a href="https://pokemonorosoft.vercel.app/" target='_blank'><CryptoText text="here"></CryptoText></a></span>!</p>
                 </div>
-                <Bottombuttons link='/projects/24live' />
+                <Bottombuttons currentProject='pokemonorsoftware' />
 
             </div>
 

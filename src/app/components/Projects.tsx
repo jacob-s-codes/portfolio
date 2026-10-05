@@ -58,11 +58,11 @@ const Projects = () => {
                     <div className="flex flex-row items-stretch justify-between gap-x-8 px-4 border-t-16 border-darkbg h-full">
                         <div className="flex flex-col items-start border-r-16 border-darkbg h-full pt-4 md:pb-0 pb-4">
                             <h5 className="font-extrabold text-4xl uppercase">50+</h5>
-                            <p>50+ students participated for free at UHS Hacks.</p>
+                            <p>50+ student participants.</p>
                         </div>
-                        <div className="flex flex-col items-start pt-4 h-full">
+                        <div className="flex flex-col items-start pt-4 h-full pb-4">
                             <h5 className="font-black text-4xl uppercase">8</h5>
-                            <p>Organized with 8 code support and outreach volunteers.</p>
+                            <p>Organized with 8 volunteers.</p>
                         </div>
                     </div>
                 </div>

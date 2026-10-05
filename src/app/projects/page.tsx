@@ -8,7 +8,7 @@ export const metadata = {
 
 const page = () => {
     return (
-        <div className='max-w-7xl mx-auto'>
+        <div className=''>
             <ProjectsClient/>
         </div>
     )
